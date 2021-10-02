@@ -4,6 +4,7 @@
 // Now we arrange the Linked List such that the odd positions will come first and
 // then once the all odd positions are linked then we point the last odd node to even_first and
 // then all the even position nodes are linked till we reach to the end of Linked List.
+
 #include<iostream>
 using namespace std;
 
