@@ -1,3 +1,9 @@
+//Odd and even are the pointers for the odd and even positions in the Linked List.
+//Starting with head will be in the odd position and node next to head is in the even position.
+//Then even_first is the starting even position node.
+// Now we arrange the Linked List such that the odd positions will come first and
+// then once the all odd positions are linked then we point the last odd node to even_first and
+// then all the even position nodes are linked till we reach to the end of Linked List.
 #include<iostream>
 using namespace std;
 
